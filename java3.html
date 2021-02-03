@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if statements</title>
+</head>
+<body>
+    <p>What is Magic Word</p>
+    <p><input type="text" id='magic'></p>
+    <p><button id='checkmagic'>Enter</button></p>
+    <script type="text/javascript">
+      //var x =1;
+      //if(x==1){
+          //alert('x is 1');}
+      //else{
+          //alert('x isnt 1');}
+          document.getElementById('checkmagic').onclick=function(){
+              //alert('hi');
+            var magicword = document.getElementById('magic').value;
+            //alert(magicword);
+            var magic='yukti';
+            if(magicword==magic){
+                alert('yayy Righty!');
+            }
+            else{
+                alert('nahh Try again!');
+            }
+          }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+</head>
+<body>
+    
+    <input type="text" id='textinput'>
+    <button id='textchange'>change text</button>
+    <p id='text'> some text </p>
+    <script type="text/javascript">
+    //changing text exercise
+    document.getElementById('textchange').onclick=function(){
+        var textenter='';
+        textenter=document.getElementById("textinput").value;
+        document.getElementById('text').innerHTML=textenter;
+    }
+    
+
+    </script>
+    
+</body>
+</html>

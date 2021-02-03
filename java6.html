@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <div id='fooddiv'></div>
+    <script type='text/javascript'>
+    var foodstring='';
+    var food=['pizza','burger','chocolate'];
+    
+    //while(i<food.length){
+         //foodstring=foodstring+'<p>'+food[i]+'<p>';
+         //i++;}
+
+     for(var i=0;i<food.length;i++){
+         //alert(food[i]);
+         foodstring=foodstring+'<p>'+food[i]+'<p>';
+
+     }
+     document.getElementById('fooddiv').innerHTML=foodstring;
+
+    </script>
+    
+</body>
+</html>
